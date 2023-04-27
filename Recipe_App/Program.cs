@@ -5,6 +5,8 @@ namespace Recipe_App
 {
     internal class Program
     {
+        private const string Value = "exit program";
+
         static void Main(string[] args)
         {
             Recipe recipe = new Recipe();
@@ -31,7 +33,9 @@ namespace Recipe_App
                         recipe.DisplayRecipe();
                         break;
                     case 3:
-                        recipe.Measurements();
+                        Console.WriteLine("Enter the measurements ( 0.5 (half), 2 (double) or 3 (triple)):");
+                        double factor= double.Parse (Console.ReadLine());
+                        recipe.DisplayRecipe();
                         break;
                     case 4:
                         recipe.Quantities();
@@ -40,9 +44,7 @@ namespace Recipe_App
                         recipe = new Recipe();
                         break;
                     case 6:
-                        Console.WriteLine("exit program");
-                        
-                       
+                        Console.WriteLine(Value);
                         break;
                 }
             }
