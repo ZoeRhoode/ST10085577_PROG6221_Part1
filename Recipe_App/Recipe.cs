@@ -4,6 +4,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+// Troelsen, A.Japikse, P. 2021.Pro c# 9 with. Net5. 10th ed. USA: West Chester.
+//C# Tutorial - Full Course for Beginners- Mike. youtube video, added by Graffe acadamy.
+    //[Online]. Available at:https://www.youtube.com/watch?v=GhQdlIFylQ8&t=3163s 
 
 namespace Recipe_App
 {
